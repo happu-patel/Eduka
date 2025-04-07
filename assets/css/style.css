@@ -6151,7 +6151,9 @@ label {
   padding-left: 10px;
   color: var(--theme-color2);
 }
-
+.contact-item strong {
+color: var(--theme-color2);
+}
 .footer-widget-box p {
   color: var(--color-white);
   padding-right: 18px;
