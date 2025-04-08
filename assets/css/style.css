@@ -916,7 +916,7 @@ label {
   color: var(--theme-color2);
 }
 @media all and (max-width: 1469px){
-  .container {
+  .container-n {
     max-width : 1045px !important ;
   }
 }
