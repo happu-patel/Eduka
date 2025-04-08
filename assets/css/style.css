@@ -916,7 +916,11 @@ label {
   color: var(--theme-color2);
 }
 
-
+@media (min-width: 992px) {
+    .container {
+        max-width: 980px;
+    }
+}
 @media all and (max-width: 1199px) {
   .header-top-contact ul {
     gap: 10px;
@@ -929,7 +933,10 @@ label {
     margin-left: 0;
   }
 }
-
+@media all and (max-width: 1024px){
+  .header-top::before {
+    width: 26%;
+}
 @media all and (max-width: 992px) {
   .header-top {
     display: none;
