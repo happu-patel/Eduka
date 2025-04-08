@@ -933,6 +933,7 @@ label {
   .header-top::before {
     width: 26%;
 }
+}
 @media all and (max-width: 992px) {
   .header-top {
     display: none;
