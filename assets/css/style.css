@@ -920,11 +920,7 @@ label {
     max-width : 1045px !important ;
   }
 }
-@media (min-width: 992px) {
-    .container, .container-lg, .container-md, .container-sm {
-        max-width: 1000px;
-    }
-}
+
 @media all and (max-width: 1199px) {
   .header-top-contact ul {
     gap: 10px;
