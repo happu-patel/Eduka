@@ -915,7 +915,11 @@ label {
 .header-top-social a:hover {
   color: var(--theme-color2);
 }
-
+@media all and (max-width: 1469px){
+  .container {
+    max-width : 1045px !important ;
+  }
+}
 @media (min-width: 992px) {
     .container, .container-lg, .container-md, .container-sm {
         max-width: 1000px;
