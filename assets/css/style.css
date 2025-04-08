@@ -2286,7 +2286,13 @@ label {
     max-width: 50%;
   }
 }
-
+@media (max-width: 567px){
+.feature-wrapper .col-lg-2,
+  .feature-wrapper .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 .feature-item .count {
   position: absolute;
   right: 30px;
