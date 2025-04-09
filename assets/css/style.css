@@ -6071,6 +6071,8 @@ label {
   width: 80px;
   height: 90px;
   margin-bottom: 25px;
+    background-color: #fff;
+    padding: 6px;
 }
 
 .copyright {
