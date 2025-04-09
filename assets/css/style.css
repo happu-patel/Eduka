@@ -6042,7 +6042,7 @@ label {
 ======================*/
 
 .footer-area {
-  background: var(--footer-bg);
+  background: #116e63;
   position: relative;
   z-index: 1;
 }
