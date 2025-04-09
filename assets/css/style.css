@@ -4416,6 +4416,7 @@ label {
 ======================*/
 .video-area {
   padding-bottom: 120px;
+  padding-top:120px;
 }
 
 .video-content {
