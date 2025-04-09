@@ -1914,16 +1914,16 @@ label {
 
 .about-quote {
   position: relative;
-  color: var(--color-dark);
+  color: #fff;
   padding: 20px 22px;
-  background: var(--theme-color-light);
+  background: rgb(17 110 99);
   border-radius: 20px;
 }
 
 .about-quote i {
   position: absolute;
   font-size: 45px;
-  color: var(--theme-color);
+  color: #fda31b;
   right: 15px;
   bottom: -15px;
 }
