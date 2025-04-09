@@ -1040,13 +1040,30 @@ img {
   transform: translate(0, -50%);
 }
 
+
 @media all and (max-width: 1199px) {
 
   .hero-single .hero-content .hero-title {
     font-size: 37px;
   }
 
+  .hero-slider.owl-theme .owl-nav .owl-prev,
+  .hero-slider.owl-theme .owl-nav .owl-next {
+    top: unset;
+    bottom: 30px !important;
+  }
+
+  .hero-slider.owl-theme .owl-nav .owl-prev {
+    left: unset;
+    right: 120px;
+  }
+
+  .hero-slider.owl-theme .owl-nav .owl-next {
+    right: 40px;
+  }
+
 }
+
 
 @media all and (max-width: 991px) {
 
