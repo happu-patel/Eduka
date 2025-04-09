@@ -829,7 +829,11 @@ img {
   }
 
 }
-
+@media all and (max-width: 991px) {
+  .navbar-brand img {
+    width: 80px;
+  }
+}
 
 /*============================
 13. Mega menu
