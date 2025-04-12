@@ -2015,7 +2015,8 @@ img {
 43. Video css 
 ======================*/
 .video-area {
-  padding-bottom: 120px;
+  padding-bottom: 100px;
+  padding-top: 100px
 }
 
 .video-content {
