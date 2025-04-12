@@ -37,19 +37,27 @@
     font-family: "Font Awesome 6 Brands"
 }
 
+.fa-caret-right:before {
+    content: "\f0da"
+}
+
 .fa-arrow-left-long:before,
 .fa-long-arrow-left:before {
     content: "\f177"
 }
+
 .fa-long-arrow-right:before {
     content: "\f178";
 }
 .fa-caret-right:before {
     content: "\f0da"
 }
-
 .fa-bars:before {
     content: "\f0c9"
+}
+
+.fa-share-nodes:before {
+    content: "\f1e0"
 }
 
 .fa-star:before {
@@ -105,6 +113,10 @@
     content: "\e170"
 }
 
+.fa-plus:before {
+    content: "\2b"
+}
+
 .fa-times:before {
     content: "\f00d"
 }
@@ -120,17 +132,18 @@
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-}
-.fa-pencil-alt:before,
-.fa-pencil:before {
-    content: "\f303";
-}
+    }
+    
+    .fa-pencil-alt:before,
+    .fa-pencil:before {
+        content: "\f303";
+    }
+
 :host,
 :root {
     --fa-style-family-brands: "Font Awesome 6 Brands";
     --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"
 }
-
 @font-face {
     font-family: "Font Awesome 6 Brands";
     font-style: normal;
@@ -158,16 +171,20 @@
 .fa-whatsapp:before {
     content: "\f232"
 }
+
 .fa-share-nodes:before {
     content: "\f1e0";
 }
+
 .fa-youtube:before {
     content: "\f167"
 }
+
 .fa-share-alt:before,
 .fa-share-nodes:before {
     content: "\f1e0";
 }
+
 :host,
 :root {
     --fa-style-family-duotone: "Font Awesome 6 Duotone";
