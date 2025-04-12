@@ -1,4 +1,12 @@
 /*=====================================================
+Template Name   : Eduka
+Description     : School, College, University And Courses HTML5 Template
+Author          : LunarTemp
+Version         : 1.0
+=======================================================*/
+
+
+/*=====================================================
 Table of contents
 =======================================================
 
@@ -82,7 +90,7 @@ Table of contents
 1. Google fonts
 ======================*/
 
- @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap');
 
 
 /*====================
@@ -829,6 +837,7 @@ img {
   }
 
 }
+
 @media all and (max-width: 991px) {
   .navbar-brand img {
     width: 80px;
@@ -1008,6 +1017,7 @@ img {
   margin-top: 35px;
   justify-content: start;
 }
+
 .hero-slider.owl-theme .owl-nav [class*=owl-] {
   color: var(--color-white);
   font-size: 25px;
@@ -1044,7 +1054,6 @@ img {
   transform: translate(0, -50%);
 }
 
-
 @media all and (max-width: 1199px) {
 
   .hero-single .hero-content .hero-title {
@@ -1067,7 +1076,6 @@ img {
   }
 
 }
-
 
 @media all and (max-width: 991px) {
 
@@ -1274,16 +1282,19 @@ img {
     margin-top: 30px;
   }
 }
-@media all and (max-width: 767px){
+
+@media all and (max-width: 767px) {
   .about-img .img-1 {
-    width:100%;
+    width: 100%;
   }
+
   .about-img .img-2 {
-    width:100%;
-    
+    width: 100%;
+
   }
+
   .about-img .img-3 {
-    width:100%;
+    width: 100%;
   }
 }
 
@@ -1425,6 +1436,76 @@ img {
 /* ========================
 25. Gallery css 
 =========================== */
+
+.gallery-item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.gallery-img {
+  height: 100%;
+}
+
+.gallery-img img {
+  width: 100%;
+  border-radius: 50px 50px 50px 0;
+}
+
+.gallery-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.gallery-content::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: var(--theme-color2);
+  border-radius: 50px 50px 50px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.gallery-content:hover::before {
+  opacity: 0.9;
+  visibility: visible
+}
+
+.gallery-link {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.5s;
+  border-radius: 50px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 60px;
+  color: var(--color-white);
+}
+
+.gallery-link:hover {
+  color: var(--color-white);
+}
+
+.gallery-content:hover .gallery-link {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
 
 
 
@@ -1626,6 +1707,7 @@ img {
   color: var(--theme-color2);
   margin-bottom: 15px;
 }
+
 .testimonial-area .owl-dots .owl-dot span {
   background: var(--theme-color2);
   border-radius: 50px;
@@ -1635,6 +1717,7 @@ img {
   display: inline-block;
   transition: var(--transition);
 }
+
 .testimonial-area .owl-dots .owl-dot.active span {
   width: 20px;
 }
@@ -1867,10 +1950,6 @@ img {
   letter-spacing: 2px;
 }
 
-.team-bio h5 a:hover {
-  color: var(--theme-color);
-}
-
 .team-social-btn {
   position: absolute;
   right: -5px;
@@ -1937,7 +2016,6 @@ img {
 ======================*/
 .video-area {
   padding-bottom: 120px;
-  padding-top: 120px;
 }
 
 .video-content {
@@ -2299,7 +2377,7 @@ img {
 ======================*/
 
 .footer-area {
-  background: #116e63;
+  background: var(--footer-bg);
   position: relative;
   z-index: 1;
 }
