@@ -25,10 +25,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     
     <link rel="preload" as="image" href="assets/img/slider/slider-1.webp" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- Preconnect improves font load speed -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- Load fonts without blocking render -->
+<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</noscript>
 
 </head>
 
