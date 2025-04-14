@@ -659,6 +659,15 @@ img {
     line-height: 37px;
     margin-left: 0;
   }
+ .header-top::before {
+    width: 32%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .header-top::before {
+    width: 26%;
+  }
 }
 
 @media all and (max-width: 992px) {
