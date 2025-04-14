@@ -643,7 +643,11 @@ img {
   color: var(--theme-color2);
 }
 
-
+@media all and (max-width: 1469px) {
+  .container-n {
+    max-width: 1045px !important;
+  }
+}
 @media all and (max-width: 1199px) {
   .header-top-contact ul {
     gap: 10px;
