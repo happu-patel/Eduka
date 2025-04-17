@@ -116,7 +116,9 @@
 .fa-plus:before {
     content: "\2b"
 }
-
+.fa-search:before {
+    content: "\f002";
+}
 .fa-times:before {
     content: "\f00d"
 }
